@@ -209,14 +209,19 @@
   border-top: 1px solid rgba(204, 204, 204, 0.493);
   padding-top: 20px;
 }
+.classtitle {
+  display: flex;
+}
 .class h3 {
   color: rgb(95, 95, 95);
   font-size: 16px;
   padding: 10px 0;
 }
-.class h3::after {
-  content: " —————————————————————————";
-  color: rgba(204, 204, 204, 0.493);
+.class .line {
+  border-bottom: 1px solid rgba(204, 204, 204, 0.493);
+  margin-bottom: 20px;
+  margin-left: 15px;
+  flex-grow: 1;
 }
 .classlinks {
   display: flex;
